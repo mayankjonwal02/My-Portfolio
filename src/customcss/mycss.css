@@ -1,0 +1,154 @@
+/* NeonDiv.css */
+
+.neon-container {
+    margin-top: 150px;
+    margin-left: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    /* Adjust height as needed */
+    width: fit-content;
+    background-color: #111;
+    transition: all 0.3s ease;
+}
+
+.neon-border {
+    padding: 20px;
+    /* Adjust padding as needed */
+    background-color: #203c47;
+    /* Dark background color */
+    border: 2px solid #00ffff;
+    /* Neon green border */
+    border-radius: 10px;
+    /* Adjust border radius as needed */
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    /* Neon glow effect */
+}
+
+.neon-border p {
+    margin: 0;
+    /* Remove default margin for the paragraph inside the neon border */
+    color: #00ffff;
+    /* Neon green text color */
+    text-align: center;
+    margin-left: 0px;
+}
+.myname {
+    color: #00ffff;
+     font-size: 7vw;
+     transition: all 0.3s ease;
+}
+
+.quote {
+    color: #ffffff;
+     font-size: 3vw;
+     transition: all 0.3s ease;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transition: all 0.3s ease;
+    
+}
+
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 5vw;
+    transition: all 0.3s ease;
+}
+
+
+
+.intro:hover .name .myname{
+    transform: scale(1.2) translateX(14vw);
+    
+}
+
+.intro:hover .name .quote{
+    transform: scale(0.7) translateX(25vw);
+    
+    
+
+    
+}
+
+
+.intro:hover .neon-container {
+    transform: translate3d(-18vw,21vw,0vw);
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro {
+        
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+       
+        
+        
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        height: fit-content;
+        margin-top: 100px;
+        margin-left: 5vw;
+        transition: all 0.3s ease;
+        
+    }
+
+    .myname {
+        font-size: 10vw;
+    }
+
+    .quote {
+        font-size: 5vw;
+    }
+
+    .neon-container {
+        margin-top: 20px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        /* Adjust height as needed */
+        width: fit-content;
+        background-color: #111;
+        transition: none;
+        
+    }
+
+    .intro:hover {
+        transform: none;
+    }
+
+    .intro:hover .name{
+        transform: none
+        
+    }
+    
+    
+    .intro:hover .neon-container {
+        transform: none;
+    
+    }
+
+   
+}
+
+
