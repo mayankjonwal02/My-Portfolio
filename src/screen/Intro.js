@@ -2,8 +2,13 @@ import React from "react";
 import Particlebackground from "../component/Particlebackground";
 import Typewriter from "typewriter-effect";
 import "../customcss/mycss.css";
+import { Link, NavLink, Router } from 'react-router-dom';
+import MyInfo from "./MyInfo";
+
 
 export default function Intro() {
+
+  const driveLink = 'https://drive.google.com/file/d/1aKZH0EfdnVYPchlNObhK2FPbTwHau8i6/view?usp=drive_link';
   return (
     <div>
       <Particlebackground />
@@ -51,11 +56,14 @@ export default function Intro() {
               </div>
             </div>
           </div>
-          <div style={{display:"flex",margin:"10vw",justifyContent:"center"}}>
-          <div className="resume"  style={{ }}>
-            Resume
+          <div style={{display:"flex",marginTop:"3vw",justifyContent:"center"}}>
+
+          <a className="resume" href={driveLink} target="_blank" rel="noopener noreferrer">
+        Resume
+      </a>
           </div>
-          </div>
+          <MyInfo/>
+          
         </div>
       </div>
     </div>
