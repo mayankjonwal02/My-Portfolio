@@ -51,8 +51,8 @@ export default function Intro() {
               </div>
             </div>
           </div>
-          <div style={{display:"flex",margin:"200px",justifyContent:"center"}}>
-          <div className="btn btn-primary text-white"  style={{position:"fixed",width:"fit-content" }}>
+          <div style={{display:"flex",margin:"10vw",justifyContent:"center"}}>
+          <div className="resume"  style={{ }}>
             Resume
           </div>
           </div>

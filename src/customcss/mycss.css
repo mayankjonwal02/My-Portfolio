@@ -60,10 +60,11 @@
 .intro {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
     transition: all 0.3s ease;
     
     justify-content: center;
+    
     
 }
 
@@ -77,13 +78,19 @@
     margin-top: 100px;
     /* margin-left: 5vw; */
     transition: all 0.3s ease;
+    /* background-color: blue; */
+   
     
 }
 
 
 
+
+
 .intro:hover .name .myname{
-    transform: scale(1.2) ;
+    
+    transform: scale(1.4) ;
+    
     
     
 }
@@ -94,8 +101,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s ease;
-    margin-left: 25%;     
+    /* margin-left: -20vw; */
+    transform: translateX(-15vw) translateY(-10vw);
+    margin-top: 15vw;
+    
+     
     
     
 }
@@ -113,7 +123,7 @@
 .intro:hover {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    /* width: 100%; */
     
    
     justify-content: center;
@@ -124,8 +134,46 @@
 
 .intro:hover .neon-container {
     
-    margin-top: 40%;
-    margin-left: -50%;
+    margin-top: 25vw;
+    margin-left:-50vw;
+    /* position: absolute; */
+}
+
+
+.resume {
+    border-radius: 12px;
+    padding: 20px;
+    color: #00ffff;
+    background-color: #203c47;
+    font-weight: bolder;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 10px #00ffff ,  0 0 20px #00ffff ,  0 0 30px #00ffff;
+    transition: all 0.3s ease;
+}
+
+.resume:hover {
+    transform: scale(1.1);
+}
+
+
+
+@media only screen and (max-width : 1150px ) {
+    
+    .intro:hover .name {
+   
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-left: -20vw; */
+        transform: translateX(-15vw) translateY(-15vw);
+        margin-top: 15vw;
+        
+         
+        
+        
+    }
+
 }
 
 
@@ -134,7 +182,7 @@
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
 
     .main {
@@ -149,6 +197,7 @@
         /* display: flex; */
         justify-content:center ;
         align-items: center;
+        width: 100%;
         
        
         
@@ -206,6 +255,7 @@
         margin-top: 100px;
         margin-left: 0%;
         transition: none;
+        transform: none;
         
         
     }
@@ -245,6 +295,12 @@
        
         transition: none;
     }
+
+
+    .resume:hover {
+        transform: none;
+    }
+    
 
    
 }
