@@ -18,43 +18,41 @@ export default function Intro() {
           width: "100%",
         }}
       >
-        <div className="intro" style={{}}>
-          <div className="p-2 name" style={{}}>
-            <div
-              className="fw-bold myname"
-              style={{  }}
-            >
-              Mayank Jonwal
-            </div>
-            {/* <div
+        <div className="main" style={{ display: "flex", flexDirection: "column" }}>
+          <div className="intro" style={{}}>
+            <div className="p-2 name" style={{}}>
+              <div className="fw-bold myname" style={{}}>
+                Mayank Jonwal
+              </div>
+              {/* <div
             className="fw-bold"
             style={{ color: "#00ffff", fontSize: "50px" }}
           >
             Jonwal
           </div> */}
-            <div
-              className="fw-bold quote"
-              style={{  }}
-            >
-              <Typewriter
-                options={{
-                  strings: ["I'm a Full-Stack Developer", "I Love Coding !!"],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
+              <div className="fw-bold quote" style={{}}>
+                <Typewriter
+                  options={{
+                    strings: ["I'm a Full-Stack Developer", "I Love Coding !!"],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </div>
+              {/* <Cube/> */}
             </div>
-            {/* <Cube/> */}
-          </div>
 
-          <div className="neon-container">
-            <div className="neon-border fw-bold" style={{ color: "#00ffff" }}>
-              <i className="fas fa-code " style={{ fontSize: "10vw" }}>
-                {"</>"}
-              </i>
+            <div className="neon-container">
+              <div className="neon-border fw-bold" style={{ color: "#00ffff" }}>
+                <i className="fas fa-code " style={{ fontSize: "10vw" }}>
+                  {"</>"}
+                </i>
+              </div>
             </div>
           </div>
-          
+          <div className="btn btn-primary text-white" style={{position:"absolute"}}>
+            Resume
+          </div>
         </div>
       </div>
     </div>
