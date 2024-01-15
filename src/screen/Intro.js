@@ -14,13 +14,14 @@ export default function Intro() {
           zIndex: 1,
           position: "relative",
           display: "flex",
+          justifyContent:"center",
           height: "100%",
           width: "100%",
         }}
       >
-        <div className="main" style={{ display: "flex", flexDirection: "column" }}>
+        <div className="main" style={{  }}>
           <div className="intro" style={{}}>
-            <div className="p-2 name" style={{}}>
+            <div className="name" style={{}}>
               <div className="fw-bold myname" style={{}}>
                 Mayank Jonwal
               </div>
@@ -50,8 +51,10 @@ export default function Intro() {
               </div>
             </div>
           </div>
-          <div className="btn btn-primary text-white" style={{position:"absolute"}}>
+          <div style={{display:"flex",margin:"200px",justifyContent:"center"}}>
+          <div className="btn btn-primary text-white"  style={{position:"fixed",width:"fit-content" }}>
             Resume
+          </div>
           </div>
         </div>
       </div>

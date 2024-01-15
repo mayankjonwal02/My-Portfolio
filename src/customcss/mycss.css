@@ -1,5 +1,15 @@
 /* NeonDiv.css */
 
+.main {
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+     width: 100%;
+     height: fit-content;
+}
+
 .neon-container {
     margin-top: 150px;
     margin-left: 190px;
@@ -38,6 +48,7 @@
     color: #00ffff;
      font-size: 7vw;
      transition: all 0.3s ease;
+     
 }
 
 .quote {
@@ -52,6 +63,8 @@
     width: 100%;
     transition: all 0.3s ease;
     
+    justify-content: center;
+    
 }
 
 
@@ -62,38 +75,81 @@
     align-items: flex-start;
     height: 300px;
     margin-top: 100px;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
     transition: all 0.3s ease;
+    
 }
 
 
 
 .intro:hover .name .myname{
-    transform: scale(1.2) translateX(14vw);
+    transform: scale(1.2) ;
+    
+    
+}
+
+.intro:hover .name {
+   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin-left: 25%;     
+    
     
 }
 
 .intro:hover .name .quote{
-    transform: scale(0.7) translateX(25vw);
+    transform: scale(0.7);
     
     
 
+    
+}
+
+
+
+.intro:hover {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+   
+    justify-content: center;
+    
     
 }
 
 
 .intro:hover .neon-container {
-    transform: translate3d(-18vw,21vw,0vw);
-    margin-left: 0px;
+    
+    margin-top: 40%;
+    margin-left: -50%;
 }
 
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
+
+
+    .main {
+        display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
     .intro {
         
         flex-direction: column;
-        
-        justify-content: center;
+        /* display: flex; */
+        justify-content:center ;
         align-items: center;
+        
        
         
         
@@ -102,17 +158,18 @@
     .name {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content:center;
         align-items: center;
         height: fit-content;
         margin-top: 100px;
-        margin-left: 5vw;
-        transition: all 0.3s ease;
+       /* background-color: #00ffff; */
+        transition: none;
         
     }
 
     .myname {
         font-size: 10vw;
+        transition: none;
     }
 
     .quote {
@@ -133,19 +190,60 @@
         
     }
 
-    .intro:hover {
+    .intro:hover .name .myname{
+        font-size: 10vw;
         transform: none;
+        
     }
-
-    .intro:hover .name{
-        transform: none
+    
+    .intro:hover .name {
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        margin-top: 100px;
+        margin-left: 0%;
+        transition: none;
+        
+        
+    }
+    
+    .intro:hover .name .quote{
+        
+        transform: none;
+        
+        
+    
+        
+    }
+    
+    
+    
+    .intro:hover {
+        display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+   
+    justify-content: center;
+    
         
     }
     
     
     .intro:hover .neon-container {
-        transform: none;
-    
+        margin-top: 20px;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        /* Adjust height as needed */
+        width: fit-content;
+       
+        transition: none;
     }
 
    
