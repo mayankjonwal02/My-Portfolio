@@ -3,7 +3,7 @@ import Particlebackground from "../component/Particlebackground";
 import Typewriter from "typewriter-effect";
 import "../customcss/mycss.css";
 import { Link, NavLink, Router } from 'react-router-dom';
-import MyInfo from "./MyInfo";
+import MyInfo from "../customcss/MyInfo";
 
 
 export default function Intro() {
