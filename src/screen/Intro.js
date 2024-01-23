@@ -5,6 +5,8 @@ import "../customcss/mycss.css";
 import { Link, NavLink, Router } from 'react-router-dom';
 import MyInfo from "../component/MyInfo";
 import Skills from "../component/Skills";
+import Projects from "../component/projects";
+import Contact from "../component/Contact";
 
 
 export default function Intro() {
@@ -65,7 +67,8 @@ export default function Intro() {
           </div>
           <MyInfo/>
           <Skills/>
-          
+          <Projects/>
+          <Contact/>
         </div>
       </div>
     </div>
