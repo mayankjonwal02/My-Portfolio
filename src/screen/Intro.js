@@ -4,6 +4,7 @@ import Typewriter from "typewriter-effect";
 import "../customcss/mycss.css";
 import { Link, NavLink, Router } from 'react-router-dom';
 import MyInfo from "../component/MyInfo";
+import Skills from "../component/Skills";
 
 
 export default function Intro() {
@@ -63,6 +64,7 @@ export default function Intro() {
       </a>
           </div>
           <MyInfo/>
+          <Skills/>
           
         </div>
       </div>

@@ -9,9 +9,9 @@ export default function MyInfo() {
 
       <img
         src={imgsrc}
-        className="bg "
+        className="card "
         alt="Description of the image"
-        style={{ width:"100%" }}
+        style={{ width:"100%",backgroundColor:"transparent" }}
       />
     </div>
 
