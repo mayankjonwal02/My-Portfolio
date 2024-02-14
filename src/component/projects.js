@@ -14,17 +14,11 @@ export default function Projects() {
         alignItems: "center",
       }}
     >
-      <div className="fs-1 fw-bold" style={{        marginTop:"100px", color: "#00ffff" }}>
+      <div className=" fw-bold" style={{   fontSize:"50px",     marginTop:"100px", color: "#00ffff" }}>
         Projects
       </div>
       <div
-        style={{
-          marginTop:"100px",
-          display: "grid",
-          gridTemplateColumns: "repeat(4,1fr)",
-          gap: "100px",
-          margin: "80px",
-        }}
+        className="projects"
       >
         <Card
           url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSxQw7pAylhg3mfLU3fI3rgzb2ubxcjt3BGg&usqp=CAU"

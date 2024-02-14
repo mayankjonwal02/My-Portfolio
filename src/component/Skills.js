@@ -77,19 +77,21 @@ export default function Skills() {
           }}
         >
           {Skills === "Skills" ? (
-            <div className="" style={{ display: "flex", flexDirection: "column" }}>
+            <div className="" style={{ display: "flex", flexDirection: "column" ,padding:"10px"}}>
               <div className="fs-1 fw-bold text-primary">Skills</div>
+              <div>
+
+              </div>
               <div
-                className="fs-4 fw-bold text-Black"
+                className="fs-4 fw-bold text-Black mt-3"
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   width: "100%",
                   height: "fit-content",
-                  justifyContent: "center",
+                  justifyContent:"flex-start",
                   alignItems: "flex-start",
-                  padding: "10px",
-                  paddingLeft: "20px",
+                 
                 }}
               >
                 <div
@@ -100,8 +102,8 @@ export default function Skills() {
                     alignItems: "center",
                   }}
                 >
-                  <div className="text-primary">Programming Languages :</div>
-                  <div className="ms-4 fs-5">
+                  <div className="text-primary skilltitle" >Programming Languages :</div>
+                  <div className="skilltext" >
                     Python , Kotlin , C , C++ , R , Kotlin , HTML , CSS ,
                     JavaScript , PHP
                   </div>
@@ -109,28 +111,28 @@ export default function Skills() {
               </div>
 
               <div
-                className="fs-4 fw-bold text-Black"
+                className="fs-4 fw-bold text-Black mt-3"
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   width: "100%",
                   height: "fit-content",
-                  justifyContent: "center",
+                  justifyContent: "start",
                   alignItems: "flex-start",
-                  padding: "10px",
-                  paddingLeft: "20px",
+                  
+                  
                 }}
               >
                 <div
                   style={{
                     display: "flex",
                     flexDirection: "row",
-                    justifyContent: "center",
+                    justifyContent: "start",
                     alignItems: "center",
                   }}
                 >
-                  <div className="text-primary">Tools :</div>
-                  <div className="ms-4 fs-5">
+                  <div className="text-primary skilltitle">Tools :</div>
+                  <div className="skilltext">
                     Github , Intellij Idea , Android Studio , VS Code , Arduino
                     IDE , Pycharm , UNITY
                   </div>
@@ -140,35 +142,39 @@ export default function Skills() {
               </div>
 
               <div
-                className="fs-4 fw-bold text-Black"
+                className="fs-4 fw-bold text-Black mt-3"
                 style={{
                   display: "flex",
                   flexDirection: "column",
                   width: "100%",
                   height: "fit-content",
-                  justifyContent: "center",
+                  justifyContent: "start",
                   alignItems: "flex-start",
-                  padding: "10px",
-                  paddingLeft: "20px",
+                  
+                  
                 }}
               >
                 <div
                   style={{
                     display: "flex",
                     flexDirection: "row",
-                    justifyContent: "center",
+                    justifyContent: "start",
                     alignItems: "center",
                   }}
                 >
-                  <div className="text-primary">Server & Database :</div>
-                  <div className="ms-4 fs-5">
-                    XAMPP , APACHE , MySQL , PostgreSql , Mongodb , Neo4j , Firebase , Socket Programming
+                  <div className="text-primary skilltitle">Server & Database :</div>
+                  <div className="skilltext">
+                  XAMPP , APACHE , MySQL , PostgreSql , Mongodb , Neo4j , Firebase , Socket Programming
                   </div>
                 </div>
-                </div>
+                  
+                
+              </div>
+
+           
 
                 <div
-                className="fs-4 fw-bold text-Black"
+                className="fs-4 fw-bold text-Black mt-3"
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -176,8 +182,8 @@ export default function Skills() {
                   height: "fit-content",
                   justifyContent: "center",
                   alignItems: "flex-start",
-                  padding: "10px",
-                  paddingLeft: "20px",
+                  // padding: "10px",
+                  // paddingLeft: "20px",
                 }}
               >
                 <div
@@ -188,7 +194,7 @@ export default function Skills() {
                     alignItems: "flex-start",
                   }}
                 >
-                  <div className="text-primary">Development</div>
+                  <div className="text-primary skilltitle">Development</div>
 
 
 
@@ -209,8 +215,8 @@ export default function Skills() {
                     
                   }}>
                   
-                      <div className="text-primary">Android-IOS App Development :</div>
-                  <div className="ms-4 fs-5">
+                      <div className="text-primary skilltitle">Android-IOS App Development :</div>
+                  <div className="skilltext">
                   Jetpack Compose , XML
                   </div>
                   </div>
@@ -230,8 +236,8 @@ export default function Skills() {
                     
                   }}>
                   
-                      <div className="text-primary">Desktop App Development :</div>
-                  <div className="ms-4 fs-5">
+                      <div className="text-primary skilltitle">Desktop App Development :</div>
+                  <div className="skilltext">
                   Jetpack Compose , PyQT5 , TKinter
                   </div>
                   </div>
@@ -248,8 +254,8 @@ export default function Skills() {
                     
                   }}>
                   
-                      <div className="text-primary">Web App Development :</div>
-                  <div className="ms-4 fs-5">
+                      <div className="text-primary skilltitle">Web App Development :</div>
+                  <div className="skilltext">
                   React.js , Node.js , Express.js , MongoDB , Django , Flask , PHP
                   </div>
                   </div>
@@ -273,8 +279,8 @@ export default function Skills() {
                     
                   }}>
                   
-                      <div className="text-primary">Machine Learning :</div>
-                  <div className="ms-4 fs-5">
+                      <div className="text-primary skilltitle">Machine Learning :</div>
+                  <div className="skilltext">
                   Scikit-Learn , Numpy , Pandas
                   </div>
                   </div>
@@ -293,8 +299,8 @@ export default function Skills() {
                     
                   }}>
                   
-                      <div className="text-primary">Deep Learning :</div>
-                  <div className="ms-4 fs-5">
+                      <div className="text-primary skilltitle">Deep Learning :</div>
+                  <div className="skilltext">
                   Tensorflow , Keras , Pytorch
                   </div>
                   </div>
@@ -320,8 +326,8 @@ export default function Skills() {
                     
                   }}>
                   
-                      <div className="text-primary">Computer Vision :</div>
-                  <div className="ms-4 fs-5">
+                      <div className="text-primary skilltitle">Computer Vision :</div>
+                  <div className="skilltext">
                   OpenCV , Numpy , Tensorflow , Pytorch , YOLO , MediaPipe , R-CNN , -Detection , Classification , Segmentation, Pose , Tracking
                   </div>
                   </div>
@@ -353,8 +359,8 @@ export default function Skills() {
                     
                   }}>
                   
-                      <div className="text-primary">IOT :</div>
-                  <div className="ms-4 fs-5">
+                      <div className="text-primary skilltitle">IOT :</div>
+                  <div className="skilltext">
                   Arduino , Raspberry Pi ,NodeMCU
                   </div>
                   </div>
@@ -365,7 +371,7 @@ export default function Skills() {
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div className="fs-1 fw-bold text-primary">Experience</div>
               <div
-                className="fs-4 fw-bold text-Black"
+                className="fs-4 fw-bold text-Black mt-3"
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -385,11 +391,11 @@ export default function Skills() {
                     alignItems: "start",
                   }}
                 >
-                  <div className="text-primary fs-3">Software Development Engineer ( Intern )</div>
-                  <div className="fs-5">
+                  <div className="text-primary skilltitle2">Software Development Engineer ( Intern )</div>
+                  <div className="skilltext1">
                     Digitrix Agency
                   </div>
-                  <div className="fs-6">
+                  <div className="skilltext1">
                    Dec 2023 - Till Date
                   </div>
                   </div>
@@ -404,11 +410,11 @@ export default function Skills() {
                     marginTop:"30px"
                   }}
                 >
-                  <div className="text-primary fs-3">Undergraduate Researcher</div>
-                  <div className="fs-5">
+                  <div className="text-primary skilltitle2">Undergraduate Researcher</div>
+                  <div className="skilltext1">
                   CSE Department , IIT Jodhpur
                   </div>
-                  <div className="fs-6">
+                  <div className="skilltext1">
                   March 2023 - Till Date  
                   </div>
                   </div>
@@ -424,11 +430,11 @@ export default function Skills() {
                     marginTop:"30px"
                   }}
                 >
-                  <div className="text-primary fs-3">Junior Project Student Assistant</div>
-                  <div className="fs-5">
+                  <div className="text-primary skilltitle2">Junior Project Student Assistant</div>
+                  <div className="skilltext1">
                   CIVIL Department , IIT Jodhpur
                   </div>
-                  <div className="fs-6">
+                  <div className="skilltext1">
                   Dec 2022 - Dec 2023 
                   </div>
                   </div>
@@ -438,7 +444,7 @@ export default function Skills() {
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div className="fs-1 fw-bold text-primary">Education</div>
               <div
-                className="fs-4 fw-bold text-Black"
+                className="fs-4 fw-bold text-Black mt-3"
                 style={{
                   display: "flex",
                   flexDirection: "column",
@@ -458,11 +464,11 @@ export default function Skills() {
                     alignItems: "start",
                   }}
                 >
-                  <div className="text-primary fs-1">BTech</div>
-                  <div className="fs-5">
+                  <div className="text-primary skilltitle1">BTech</div>
+                  <div className="skilltext1">
                     IIT Jodhpur - AI & Data Science
                   </div>
-                  <div className="fs-6">
+                  <div className="skilltext1">
                    2021 -  2025 (exp)
                   </div>
                   </div>
@@ -477,11 +483,11 @@ export default function Skills() {
                     marginTop:"30px"
                   }}
                 >
-                  <div className="text-primary fs-1">HSC</div>
-                  <div className="fs-5">
+                  <div className="text-primary skilltitle1">HSC</div>
+                  <div className="skilltext1">
                     St. Teresa School
                   </div>
-                  <div className="fs-6">
+                  <div className="skilltext1">
                    2018 -  2020  
                   </div>
                   </div>
@@ -497,11 +503,11 @@ export default function Skills() {
                     marginTop:"30px"
                   }}
                 >
-                  <div className="text-primary fs-1">SSC</div>
-                  <div className="fs-5">
+                  <div className="text-primary skilltitle1">SSC</div>
+                  <div className="skilltext1">
                     St. Teresa School
                   </div>
-                  <div className="fs-6">
+                  <div className="skilltext1">
                    2013 -  2018 
                   </div>
                   </div>

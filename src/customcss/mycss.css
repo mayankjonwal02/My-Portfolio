@@ -179,9 +179,115 @@
     
 }
 
+.skilltitle {
+    font-size: 1.7vw;
+}
+
+
+.contact {
+    font-size: 3vw;
+}
+.skilltext {
+    font-size: 1.5vw;
+    padding-inline-start: 10px;
+}
+
+.skilltitle1 {
+    font-size: 2vw;
+}
+
+.skilltext1 {
+    font-size: 2vw;
+    padding-inline-start: 10px;
+}
+
+.skilltitle2 {
+    font-size: 2.3vw;
+}
+
+/* style={{
+    marginTop:"100px",
+    display: "grid",
+    gridTemplateColumns: "repeat(4,1fr)",
+    gap: "100px",
+    margin: "80px",
+  }} */
+.projects {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 100px;
+    margin: 80px;
+}
+
+@media only screen and (max-width : 800px)
+{
+ 
+    .skilltitle {
+        font-size: 1.9vw;
+    }
+    .skilltext {
+        font-size: 1.7vw;
+        padding-inline-start: 10px;
+    }
+
+    .skilltitle2 {
+        font-size: 4vw;
+    }
+
+    .skilltitle1 {
+        font-size: 3vw;
+    }
+    .skilltext1 {
+        font-size: 3vw;
+        padding-inline-start: 10px;
+    }
+
+    .contact {
+        font-size: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width : 1000px) {
+    /* .contact {
+        font-size: 30px;
+    } */
+}
+
+
+
+
+@media only screen and (max-width : 1500px) {
+    
+    .projects {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 100px;
+        margin: 80px;
+    }
+}
+
+
 
 @media only screen and (max-width : 1150px ) {
     
+
+    /* .contact {
+        font-size: 4vw;
+    } */
+
+    .projects {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 100px;
+        margin: 80px;
+    }
+
     .intro:hover .name {
    
     
@@ -196,6 +302,8 @@
         
         
     }
+
+  
 
     .myinfodiv {
 
