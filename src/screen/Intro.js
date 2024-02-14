@@ -11,7 +11,7 @@ import Contact from "../component/Contact";
 
 export default function Intro() {
 
-  const driveLink = 'https://drive.google.com/file/d/1aKZH0EfdnVYPchlNObhK2FPbTwHau8i6/view?usp=drive_link';
+  const driveLink = 'https://drive.google.com/file/d/1OaOqyNhuJKBrKG_l5zkhFmD2cuLgi_sa/view?usp=sharing';
   return (
     <div>
       <Particlebackground />
