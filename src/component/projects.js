@@ -50,7 +50,7 @@ export default function Projects() {
         />
         <Card
           url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJ6r67bUvDtb_WsPqIsQyinbbozJ0ulNoeQ&usqp=CAU"
-          name="Interactive Voice Responce"
+          name="Google Doc Clone"
           tech="React.js , Node.js , Express.js , MongoDB"
           info="Created a Perfect Google Docs' clone during my Internship at Digitrix Agency . By harnessing Power of MongoDB  , perfectly integrated version control system in this Project"
         />
