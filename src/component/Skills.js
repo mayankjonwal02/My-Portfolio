@@ -29,7 +29,7 @@ export default function Skills() {
           onClick={() => {
             setSkills("Skills");
           }}
-          style={{ backgroundColor: "#00ffff", color: "blue", width: "100px" }}
+          style={{ backgroundColor: "blue", color: "#00ffff", width: "100px" , borderBottom : Skills === "Skills" ? "8px solid #00ffff" :"none" ,cursor:"pointer",textDecorationThickness:"20px"}}
         >
           Skills
         </div>
@@ -38,7 +38,7 @@ export default function Skills() {
           onClick={() => {
             setSkills("Experience");
           }}
-          style={{ backgroundColor: "#00ffff", color: "blue", width: "100px" }}
+          style={{ backgroundColor: "blue", color: "#00ffff", width: "100px" ,borderBottom : Skills === "Experience" ? "8px solid #00ffff" :"none",cursor:"pointer"}}
         >
           Experience
         </div>
@@ -47,7 +47,7 @@ export default function Skills() {
           onClick={() => {
             setSkills("Education");
           }}
-          style={{ backgroundColor: "#00ffff", color: "blue", width: "100px" }}
+          style={{ backgroundColor: "blue", color: "#00ffff", width: "100px" ,borderBottom : Skills === "Education" ? "8px solid #00ffff" :"none",cursor:"pointer"}}
         >
           Education
         </div>
